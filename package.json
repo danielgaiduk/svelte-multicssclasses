@@ -1,7 +1,7 @@
 {
 	"name": "svelte-multicssclasses",
 	"description": "svelte multiple css classes with one condition",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "Daniel Gaiduk",
 	"license": "MIT",
 	"repository": "danielgaiduk/svelte-multicssclasses",

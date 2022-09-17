@@ -1,12 +1,14 @@
-import type { TPluginOptions } from './models/Plugin'
+export const CLASS_SNIPPET_REGEX = /class:(\S[^=]+)={1}{(\S+)}/g
+export const CLASSES_REGEX = /:(.*)=/
+export const CONDITION_REGEX = /={(.*)}/
+export const CLASS_DELIMITER = '.'
+export const CLASS_NEGATIVE_SIGN = '!'
 
-import {
-	CLASS_DELIMITER,
-	CLASS_SNIPPET_REGEX,
-	CLASSES_REGEX,
-	CONDITION_REGEX,
-	CLASS_NEGATIVE_SIGN
-} from './config/Plugin'
+type TPluginOptions = {
+	name: string
+	enforce: 'pre' | 'post' | undefined
+	transform: (source: string, file: string) => { code: string }
+}
 
 export default (): TPluginOptions => {
 	return {

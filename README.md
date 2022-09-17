@@ -57,8 +57,8 @@ Use ! infront of class to negate condition for that specific class
 <div class:!sample-class-1.!sample-class-2.sample-class-3="{sampleBoolean}">Example</div>
 WILL BE COMPILED TO
 <div
-	class:sample-class-1="{sampleBoolean}"
-	class:sample-class-2="{sampleBoolean}"
+	class:sample-class-1="{!sampleBoolean}"
+	class:sample-class-2="{!sampleBoolean}"
 	class:sample-class-3="{sampleBoolean}"
 >
 	Example
