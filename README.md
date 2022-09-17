@@ -5,18 +5,18 @@ Use multiple classes with one condition
 ### Usage
 
 ```sh
-pnpm i -D @danielgaiduk/svelte-multicssclasses
+pnpm i -D svelte-multicssclasses
 OR
-npm i -D @danielgaiduk/svelte-multicssclasses
+npm i -D svelte-multicssclasses
 OR
-yarn i -D @danielgaiduk/svelte-multicssclasses
+yarn i -D svelte-multicssclasses
 ```
 
 ```ts
 // vite.config.js
 
 import { sveltekit } from '@sveltejs/kit/vite'
-import { multicssclass } from '@danielgaiduk/svelte-multicssclasses'
+import { multicssclass } from 'svelte-multicssclasses'
 
 const config = {
 	plugins: [multicssclass(), sveltekit()] //ADD HERE

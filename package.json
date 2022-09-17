@@ -5,6 +5,12 @@
 	"author": "Daniel Gaiduk",
 	"license": "MIT",
 	"repository": "danielgaiduk/svelte-multicssclasses",
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"vite",
+		"plugin"
+	],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
